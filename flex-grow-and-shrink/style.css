@@ -9,7 +9,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* Some default styles to make each box visible */
 .box {
   color:white;
-  font-size: 50px;
+  font-size: 20px;
   text-align: center;
   text-shadow:4px 4px 0 rgba(0,0,0,0.1);
   padding:10px;
@@ -34,11 +34,15 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 }
 
 .box1 {
-  flex:10 5 400px;
+  /*flex-basis: 400px;
+  flex-grow: 10;
+  flex-shrink: 10;*/
+  flex: 1 1 400px
 }
 
 .box2 {
-  flex:1 1 400px;
+  /*flex-basis: 400px;
+  flex-grow: 1;
+  flex-shrink: 1;*/
+  flex: 10 5 400px;
 }
-
-
