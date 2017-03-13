@@ -34,21 +34,22 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   flex-wrap:wrap;
   flex-direction:column;
   border:10px solid goldenrod;
-  height:100vh;
+  min-height:100vh;
+  flex-wrap:row;
 }
 
 .box {
-  flex-basis:250px;
-  flex-grow:1;
+  width: 33.333333%;
+  padding: 10px;
+  /*flex-basis:300px;
+  flex-grow:1;*/
 }
 
-
+/*
 .box3 {
   flex-grow:5;
 }
 
 .box4 {
-  flex-basis:100px;  
-}
-
-
+  flex-basis:100px;
+}*/
