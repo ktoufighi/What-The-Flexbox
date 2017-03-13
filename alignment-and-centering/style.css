@@ -32,27 +32,16 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
   display:flex;
   border: 10px solid mistyrose;
-  align-items: center;
-  flex-direction:column;
+  flex-wrap:wrap;
   height: 100vh;
+
+  align-content: center;
+}
+
+.box {
+  width: 33.333%;
 }
 
 .box1 {
-  font-size: 30px;
-}
-
-.box2 {
-  font-size: 40px;
-}
-
-.box3 {
-  font-size: 50px;
-}
-
-.box4 {
-  font-size: 70px;
-}
-
-.box5 {
-  font-size: 80px;
+  justify-content: center;
 }
