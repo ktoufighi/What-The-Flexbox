@@ -36,11 +36,21 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box {
   flex:1;
 }
+/*distributes boxes evenly*/
 
-.box3 {
-  order:1;
-}
 
 .box5 {
-  order:2;
+  order:-1;
+}
+
+.box9 {
+  order:1
+}
+
+.box3 {
+  order:2
+}
+
+.box8 {
+  order:3
 }
