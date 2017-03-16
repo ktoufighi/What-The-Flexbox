@@ -87,12 +87,12 @@ a.button {
 .app-header {
   background:#F0CB45;
   color:rgba(0,0,0,0.5);
-  padding:1rem;
+  padding:2rem;
 }
 
 
 /*
-  Everything So far is Cosmetic styling 
+  Everything So far is Cosmetic styling
 
   Flexbox + Important CSS Starts Here
 
@@ -102,3 +102,44 @@ a.button {
 /*
   Overall Layout
 */
+
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-wrap > * {
+  flex: 1 1 auto;
+}
+
+/*
+  Header
+*/
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/*
+  Content
+*/
+.content {
+  overflow-y: scroll;
+  -webkit-overflow-scolling:touch;
+}
+
+
+/*
+  Icon Bar
+*/
+
+.icon-bar {
+  display:flex;
+  align-items: flex-start;
+}
+
+.icon-bar a {
+  flex: 1;
+}
